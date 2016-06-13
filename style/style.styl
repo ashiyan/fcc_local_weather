@@ -1,0 +1,64 @@
+@font-face
+	font-family "Abel"
+	font-style normal
+	src url(../fonts/Abel-Regular.ttf)
+
+html
+	height 100%
+	
+body
+	height 100%
+	display flex
+	flex-direction column
+	justify-content center
+	align-items center
+	background-image url(../img/shattered-dark-bg.png)
+	background-color #000
+	font-family 'Abel', sans-serif
+	color rgba(200, 200, 200, .6);
+		
+.error
+	color #D32F2F
+
+.forecast
+	margin-top 10px
+	display flex
+	align-items center
+	justify-content center
+	
+.city,
+.country
+	text-align center
+	margin 0
+	font-size 200%
+	
+.city
+	border-bottom 2px solid rgba(200, 200, 200, .6);
+	
+.country
+	font-size 100%
+	
+.icon
+	border 3px solid rgba(200, 200, 200, .6);
+	border-radius 50%
+	margin 0 10px
+	
+.info
+	display flex
+	flex-wrap wrap
+	font-size 180%
+	
+.temp
+	width 45px
+
+.units
+	width 30px
+	cursor pointer
+	color #AFB42B
+	transition 500ms
+	&:hover
+		color #00BCD4
+		transition 500ms
+
+.description
+	width 100%
